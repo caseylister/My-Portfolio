@@ -83,3 +83,21 @@ header nav ul li a:hover{
     letter-spacing: 5px;
     text-shadow: 0 0 6px #8A6552;
 }
+
+.info p{
+    font-size: 17px;
+    text-align: center;
+}
+
+.section-name{
+    border-bottom: 3px solid;
+    width: 50%;
+    font-size: 25px;
+    margin: 40px auto 20px auto;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.primary-border{
+    border-color: #DDB892;
+}
