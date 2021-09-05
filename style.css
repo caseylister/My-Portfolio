@@ -114,6 +114,26 @@ header nav ul li a:hover{
     line-height: 50px;
 }
 
+.most-recent{
+    display: flex;
+    justify-content: center;
+}
+
+.titles{
+    display: flex;
+    justify-content: center;
+    line-height: 10px;
+    font-size: 19px;
+    margin-top: 10px;
+}
+
+.portfolios{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: auto 30px;
+}
+
 .flex-row{
     display: flex;
 }
