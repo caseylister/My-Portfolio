@@ -59,6 +59,27 @@ header nav ul li a:hover{
     color: #8A6552;
     width: 100%;
     border-radius: 15px;
-    text-shadow: none;
 }
 
+.hero{
+    background-color: #63A276;
+    display: flex;
+    justify-content: space-between;
+}
+
+.pic{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.subtitle{
+    color:#DDB892;
+    font-size: 35px;
+    font-style: italic;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin: 15px 30px;
+    letter-spacing: 5px;
+    text-shadow: 0 0 6px #8A6552;
+}
