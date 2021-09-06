@@ -131,9 +131,79 @@ header nav ul li a:hover{
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    margin: auto 30px;
+    margin: 30px 30px;
 }
+
 
 .flex-row{
     display: flex;
+}
+
+@media screen and (max-width: 980px){
+    header{
+        padding-bottom: 0;
+        justify-content: center;
+        position: relative;
+    }
+    header h1{
+        width: 100%;
+        text-align: center;
+    }
+    header nav ul{
+        margin-top: 20px;
+        width: 100%;
+        justify-content: center;
+    }
+    header nav ul li a{
+        font-size: 20px;
+    }
+    .hero{
+        width: 100%;
+    }
+    .section-name{
+        width: 80%;
+    }
+}
+
+@media screen and(max-width: 768px) {
+    header{
+        position: relative;
+        justify-content: center;
+    }
+    header h1{
+        width: 100%;
+        text-align: center;
+    }
+    .hero{
+        width: 125%;
+    }
+    .pic{
+        flex: 0 32%;
+    }
+    .titles{
+        flex: 1 15%;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    .most-recent, .portfolios{
+        flex: 0 60%;
+        margin-right: 0;
+        margin-top: 30px;
+        margin-bottom: 15px;
+    }
+}
+
+@media screen and(max-width: 575px) {
+    .section-name{
+        width: 95%;
+    }
+    .info p{
+        width: 100%;
+    }
+    .portfolio{
+        flex: 0 100%;
+    }
+    .contact-info{
+        text-align:center;
+    }
 }
