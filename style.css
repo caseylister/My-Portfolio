@@ -9,7 +9,7 @@ body {
     color: #8A6552;
     background-color: #EDE0D4;
 }
-
+/* apply styles to header */
 header{
     padding: 20px 35px;
     background-color: #E6CCB2;
@@ -60,7 +60,7 @@ header nav ul li a:hover{
     width: 100%;
     border-radius: 15px;
 }
-
+/* hero styling */
 .hero{
     background-color: #63A276;
     display: flex;
@@ -83,13 +83,9 @@ header nav ul li a:hover{
     letter-spacing: 5px;
     text-shadow: 0 0 6px #8A6552;
 }
+/* end hero styling */
 
-.info p{
-    font-size: 17px;
-    text-align: center;
-    margin: auto 50px;
-}
-
+/* edit section format */
 .section-name{
     border-bottom: 3px solid;
     width: 50%;
@@ -100,20 +96,14 @@ header nav ul li a:hover{
     border-color:#DDB892
 }
 
-.contact-info{
-    text-align: center;
-    margin: auto;
-}
-
-.contact-info a{
-    color: #8A6552;
-    text-decoration: none;
+/* add About Me styles */
+.info p{
     font-size: 17px;
-    width: 50%;
-    display: inline-block;
-    line-height: 50px;
+    text-align: center;
+    margin: auto 50px;
 }
 
+/* add My Work styles */
 .most-recent{
     display: flex;
     justify-content: center;
@@ -134,10 +124,26 @@ header nav ul li a:hover{
     margin: 30px 30px;
 }
 
+/* add Contact Me styles */
+.contact-info{
+    text-align: center;
+    margin: auto;
+}
+
+.contact-info a{
+    color: #8A6552;
+    text-decoration: none;
+    font-size: 17px;
+    width: 50%;
+    display: inline-block;
+    line-height: 50px;
+}
 
 .flex-row{
     display: flex;
 }
+
+/* add media queries edits */
 
 @media screen and (max-width: 980px){
     header{
