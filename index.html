@@ -1,99 +1,175 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8"/>
-        <meta name="viewport" content="width=device-width, initial scale=1.0" />
-        <title>Casey Lister's Portfolio</title>
-        <link rel="stylesheet" href="style.css" />
-    </head>
-    <body>
-        <!-- navigation -->
-        <header>
-        <h1>
-            <a href="#">Casey Lister</a>
-        </h1>
-        <nav>
-            <ul>
-                <li>
-                    <a href="#about-me">About Me</a>
-                </li>
-                <li>
-                    <a href="#work">Work</a>
-                </li>
-                <li>
-                    <a href="#contact-me">Contact Me</a>
-                </li>
-            </ul>
-        </nav>
-        </header>
-        <!--hero-->
-        <section class="hero">
-            <div class="pic">
-                <img src="images/myphoto.JPG" alt="Casey Lister posing for a professional photo" width="450" height="550" />
-            </div>
-            <div class="subtitle">
-                <h2>Web Developer</h2>
-            </div>
-        </section>
-        <!--About Me section-->
-        <section id="about-me" class="info">
-            <div class="section-name">
-            <h2>About Me</h2>
-            </div>
-            <div class="flex-row">
-            <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores aspernatur facilis libero aperiam eveniet, enim suscipit?
-                Quis libero iste consectetur nulla quas dolor in, ipsam, ad assumenda voluptatem explicabo numquam.
-            </p>
-            </div>
-        </section>
-        <!--My work section-->
-        <section id="work" class="my-work">
-            <div class="section-name">
-                <h2>My Work</h2>
-            </div>
-            <div class="most-recent">
-                <article class="portfolio">
-                    <a href="https://caseylister.github.io/run-buddy/">
-                    <img src="images/run-buddy.png" alt="Run Buddy website" width= "850" height="425">
-                    </a>
-                    <div class="titles">
-                        <h3>Run Buddy</h3>
-                    </div>
-                </article>
-            </div>
-            
-            <div class="portfolios flex-row">
-                <article class="portfolio">
-                    <a href="https://caseylister.github.io/HoriseonMA/">
-                    <img src="images/horiseon.png" alt="Horiseon website" width="425" height="212.5">
-                    </a>
-                    <div class="titles">
-                        <h3>Horiseon Marketing Agency</h3>
-                    </div>
-                </article>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial scale=1.0" />
+    <title>Casey Lister's Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!-- navigation -->
+    <header>
+      <nav>
+        <ul>
+          <li class="star">
+            <a href="#">✼</a>
+          </li>
+          <li>
+            <a href="#about-me">About Me</a>
+          </li>
+          <li>
+            <a href="#work">Work</a>
+          </li>
+          <li>
+            <a href="#contact-me">Contact Me</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <!--hero-->
+    <div class="hero flex-row">
+      <div class="subtitle col-sm-6 align-items-center justify-content-center">
+        <p class="name">Casey Lister</p>
+        <p class="title">Web Developer</p>
+      </div>
+      <div class="pic col-sm-6">
+        <img
+          src="images/myphoto.png"
+          class="float-end"
+          alt="Casey Lister posing for a professional photo"
+          width="350"
+          height="350"
+        />
+      </div>
+    </div>
 
-                <article class="portfolio">
-                    <a href="https://placeholder.com">
-                        <img src="https://via.placeholder.com/150" alt="Placeholder website" width="425" height="212.5">
-                    </a>
-                    <div class="titles">
-                        <h3>Placeholder</h3>
-                    </div>
-                </article>
+    <!--About Me section-->
+    <div id="about-me" class="info row">
+      <div class="section-about col-sm-4">
+        <h2>About Me</h2>
+      </div>
+      <div class="flex-row col-sm-8">
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores
+          aspernatur facilis libero aperiam eveniet, enim suscipit? Quis libero
+          iste consectetur nulla quas dolor in, ipsam, ad assumenda voluptatem
+          explicabo numquam. Lorem ipsum, dolor sit amet consectetur adipisicing
+          elit. Quod eum, aliquid laborum odit sapiente sunt est aspernatur
+          beatae obcaecati tenetur, recusandae culpa aliquam dolores iste
+          eveniet.
+        </p>
+      </div>
+    </div>
+    <!--My work section-->
+    <div id="work">
+      <div class="row my-work justify-content-center">
+        <h2>My Work</h2>
+      </div>
+      <div class="row">
+        <div class="card border-0 cards" style="width: 35rem;">
+          <a href="https://caseylister.github.io/taskinator/">
+            <img
+              src="images/taskinator.png"
+              class="img-fluid"
+              alt="Taskinator site to keep track of To Do's"
+              width="560px"
+              height="200px"
+            />
+          </a>
+          <div class="card-body">
+            <div class="card-title text-center">
+              <h3>Taskinator</h3>
             </div>
-        </section>
-        <!--Contact Me section-->
-        <section id="contact-me">
-            <div class="section-name">
-                <h2>Contact Me</h2>
+          </div>
+        </div>
+      <div class="card border-0 cards" style="width: 35rem;">
+        <a href="https://caseylister.github.io/run-buddy/">
+          <img
+            src="images/run-buddy.png"
+            class="img-fluid"
+            alt="Run Buddy website"
+            width="560px"
+            height="200px"
+          />
+        </a>
+        <div class="card-body">
+          <div class="card-title text-center">
+            <h3>Run Buddy</h3>
+          </div>
+        </div>
+      </div>
+      <div class="card border-0 cards" style="width: 35rem;">
+          <a href="https://caseylister.github.io/git-it-done/">
+            <img
+              src="images/gititdone.png"
+              class="img-fluid"
+              alt="Github Repository search site"
+              width="560px"
+              height="200px"
+              />
+            </a>
+            <div class="card-body">
+              <div class="card-title text-center">
+                <h3>Git It Done</h3>
+              </div>
             </div>
-            <div class="contact-info">
-                <a href="tel:954.529.6987">954.529.6987</a>
-                <a href="mailto:caseynlister@gmail.com">caseynlister@gmail.com</a>
-                <a href="https://github.com/caseylister">Github</a>
+          </div>
+      </div>
+      <div class="row row2">
+        <div class="col-sm-5">
+        <div class="card border-0 cards2" style="width: 50rem;">
+            <a href="https://caseylister.github.io/Code-Quiz/">
+              <img
+                src="images/codequiz.png"
+                class="img-fluid"
+                alt="Code Quiz"
+                width="800px"
+                height="200px"
+              />
+            </a>
+            <div class="card-body">
+              <div class="card-title text-center">
+                <h3>Code Quiz</h3>
+              </div>
             </div>
-        </section>
-        
-    </body>    
-        
+        </div>
+        </div>
+        <div class="col-sm-2"></div>
+        <div class="col-sm-5">
+        <div class="card border-0 cards2" style="width: 50rem;">
+          <a href="https://tari-star.github.io/Crypto-tracker/">
+            <img
+              src="images/converter.png"
+              class="img-fluid"
+              alt="Cryptocurrency Converter Website"
+              width="800px"
+              height="200px"
+            />
+          </a>
+          <div class="card-body">
+            <div class="card-title text-center">
+              <h3>Cryptocurrency Converter</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+    <div id="contact-me" class="row">
+        <div class="contact col-sm-5">
+            <h2>Contact Me</h2>
+        </div>
+        <div class="contact-info col-sm-7">
+            <a href="tel:954.529.6987">954.529.6987</a>
+            <a href="mailto:caseynlister@gmail.com">caseynlister@gmail.com</a>
+            <a href="https://github.com/caseylister">Github</a>
+        </div>
+    </div>  
+  </body>
+</html>
