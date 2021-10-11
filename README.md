@@ -5,9 +5,9 @@ Using HTML and CSS, I've created my own personal portfolio! I used flexbox and m
 https://caseylister.github.io/My-Portfolio/
 
 
-![Portfolio 1/3](./images/port1.png)
+![Portfolio 1/3](./images/remake1.png)
 
-![Portfolio 2/3](./images/port2.png)
+![Portfolio 2/3](./images/remake2.png)
 
-![Portfolio 3/3](./images/port3.png)
+![Portfolio 3/3](./images/remake3.png)
 
