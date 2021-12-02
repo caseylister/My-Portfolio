@@ -138,6 +138,7 @@ header nav ul li a:hover {
 
 .row2 {
   margin-bottom: 100px;
+  justify-content: space-evenly;
 }
 
 .cards2{
